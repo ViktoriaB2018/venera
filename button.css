@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin: 0 10px;
+}
+
+.button-green {
+  background: #377a7a;
+  color: white;
+}
+
+.button-green:hover {
+  box-shadow:0 0 5px #377a7a;
+  background: #285b5b;
+  transition: all ease .3s;
+}
+
+.button-gray {
+  background: #7e7f7f;
+  color: white;
+}
+
+.button-gray:hover {
+  box-shadow:0 0 5px grey;
+  background: #767777;
+  transition: all ease .3s;
+}

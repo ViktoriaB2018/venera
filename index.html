@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Путешествие на Венеру</title>
+  <link href="https://fonts.googleapis.com/css?family=Play&amp;subset=cyrillic" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main_style.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="text.css">
+  <link rel="stylesheet" href="intro.css">
+  <link rel="stylesheet" href="button.css">
+  <link rel="stylesheet" href="advant.css">
+  <link rel="stylesheet" href="prices.css">
+  <link rel="stylesheet" href="action.css">
+  <link rel="stylesheet" href="blink.css">
+  <link rel="stylesheet" href="form.css">
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="header.js"></script>
+  <script src="parallax.js-1.5.0/parallax.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div class="container buffer-both">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" class="logo">
+      </div>
+      <div class="navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#intro">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#advant">Наши преимущества</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#prices">Цены</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#action">Заказать</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="images/bg.jpg">
+    <img class="intro-logo" src="images/logo-2.png" alt="[Лого]">
+    <h1 class="title-lg">Путешествие на Венеру!</h1>
+    <h3 class="text-lg">Целая неделя космических приключений по самой низкой цене</h3>
+    <div class="intro-buttons buffer-top">
+      <a class="button button-green" href="#">Наши преимущества</a>
+      <a class="button button-green" href="#">Заказать</a>
+    </div>
+  </div>
+  <div class="advant text-center" id="advant">
+    <div class="container">
+      <div class="column-1-3">
+        <div class="advant-card">
+          <div class="advant-icon">
+            <img src="images/icon1.png" alt="icon1">
+          </div>
+          <p class="title-md">Скидки</p>
+          <p class="text-lg">-50% детям до 14 лет</p>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="advant-card">
+          <div class="advant-icon">
+            <img src="images/icon2.png" alt="icon2">
+          </div>
+          <p class="title-md">Прямой рейс</p>
+          <p class="text-lg">без пересадок и возни с багажом</p>
+        </div>
+      </div>
+      <div class="column-1-3">
+        <div class="advant-card">
+          <div class="advant-icon">
+            <img src="images/icon3.png" alt="icon3">
+          </div>
+          <p class="title-md">100%</p>
+          <p class="text-lg">положительных отзывов</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="prices text-center" id="prices">
+    <div class="container buffer-both-lg">
+      <h2 class="title-md">Цены</h2>
+      <p class="text-ld">При отмене путешествия за 3 дня до вылета, мы вернем вам деньги</p>
+    </div>
+  </div>
+  <div class="fares buffer-both text-center">
+    <div class="container">
+      <div class="fares-prices">
+        <div class="column-1-3">
+          <div class="price-card">
+            <div class="card-top">
+              <h2 class="title-md">Light</h2>
+              <h3 class="text-ld">Минимальный пакет</h3>
+            </div>
+            <ul class="text-md">
+              <li class="fare-item">Эконом-класс</li>
+              <li class="fare-item">Только ручная кладь</li>
+              <li class="fare-item">Экскурсии не включены</li>
+              <li class="fare-item">&nbsp;</li>
+            </ul>
+            <div class="price title-md">100&nbsp;000 &#8381;</div>
+            <div class="card-bottom">
+              <div class="order">
+                <a href="#" class="button button-gray">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-1-3">
+          <div class="price-card pick-card">
+            <div class="card-top">
+              <h2 class="title-md">Full</h2>
+              <h3 class="text-ld">Оптимальный пакет</h3>
+            </div>
+            <ul class="text-md">
+              <li class="fare-item">Бизнес-класс</li>
+              <li class="fare-item">Два багажных места</li>
+              <li class="fare-item">Одна экскурсия на выбор</li>
+              <li class="fare-item">&nbsp;</li>
+            </ul>
+            <div class="price title-md">150&nbsp;000 &#8381;</div>
+            <div class="card-bottom">
+              <div class="order">
+                <a href="#" class="button button-green">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column-1-3">
+          <div class="price-card">
+            <div class="card-top">
+              <h2 class="title-md">Premium</h2>
+              <h3 class="text-ld">Максимальный пакет</h3>
+            </div>
+            <ul class="text-md">
+              <li class="fare-item">Первый класс</li>
+              <li class="fare-item">Неограниченный багаж</li>
+              <li class="fare-item">Экскурсии включены</li>
+              <li class="fare-item">Скафандр в подарок</li>
+            </ul>
+            <div class="price title-md">200&nbsp;000 &#8381;</div>
+            <div class="card-bottom">
+              <div class="order">
+                <a href="#" class="button button-gray">Заказать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="action text-center" id="action">
+    <div class="container">
+      <div class="column-1-2">
+        <div class="text-action title-md buffer-both" id="blink6">Венера ждет тебя...</div>
+        <div class="text-action text-lg buffer-both-sm" id="blink6">Закажи путешествие в один клик</div>
+      </div>
+      <div class="form-order column-1-2 buffer-both-sm">
+        <form>
+          <div class="group">
+            <input type="text" required>
+            <span class="bar"></span>
+            <label>Имя</label>
+          </div>
+          <div class="group">
+            <input type="text" required>
+            <span class="bar"></span>
+            <label>E-mail</label>
+          </div>
+          <div class="group">
+            <input type="text" required>
+            <span class="bar"></span>
+            <label>Телефон</label>
+          </div>
+        </form>
+        <div class="order">
+          <a href="#" class="button button-green">Полетели!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

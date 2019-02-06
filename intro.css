@@ -1,0 +1,38 @@
+.intro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  color: white;
+  padding: 60px;
+  margin-top: 94px;
+}
+
+.intro .text-lg {
+  color: #f4f7f7;
+  max-width: 70%;
+  margin: 0 15%;
+  letter-spacing: 0.05em;
+}
+
+.intro .title-lg {
+  letter-spacing: 0.05em;
+}
+
+.intro-logo {
+  margin-bottom: 30px;
+  width: 150px;
+  height: auto;
+}
+
+@media (max-width: 960px) {
+  .intro {
+    margin-top: 124px;
+  }
+}
+
+@media (max-width: 460px) {
+  .intro {
+    margin-top: 154px;
+  }
+}

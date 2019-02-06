@@ -1,0 +1,16 @@
+.action {
+  background-image: url("images/venera.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  height: 30%;
+  width: auto;
+  margin-top: 70px;
+}
+
+.action form {
+  margin-left: 20px;
+}
