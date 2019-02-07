@@ -37,3 +37,9 @@
 .pick-card .card-bottom {
   background: #729991;
 }
+
+@media (max-width: 640px) {
+  .price-card {
+    margin-top: 50px;
+  }
+}
